@@ -1,0 +1,9 @@
+<div class="fondo">
+  <label>A: <input type="number" [(ngModel)]="a" /></label>
+  <label>B: <input type="number" [(ngModel)]="b" /></label>
+  <button (click)="calcular()">Calcular Total</button>
+
+  <p>
+    Total factura ({{ a }}  *  {{ b }}): <strong>{{ total }}</strong>
+  </p>
+</div>
